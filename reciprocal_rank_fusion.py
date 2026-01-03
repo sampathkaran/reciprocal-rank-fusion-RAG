@@ -1,5 +1,3 @@
-from cv2 import SCORE_METHOD_MSAC
-from httpx import get
 from langchain_chroma import Chroma
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_core.messages import SystemMessage,HumanMessage
